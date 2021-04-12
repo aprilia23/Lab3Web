@@ -73,6 +73,33 @@
   <p>Hasil run di browser<p>
   
   ![111](https://user-images.githubusercontent.com/54062259/114333754-45d40800-9b73-11eb-92f1-fe9afb42a114.PNG)
+  
+<p>Tugas Pratikum 3<p>
+<p>form yang menampilkan dropdown menu dan listbox dengan multiple selection<p>
+  
+  ![image](https://user-images.githubusercontent.com/54062259/114357209-ae36df80-9b9b-11eb-9d2b-e86bbeeef573.png)
+  
+<p>Membuat Drop menu dan tambahan CSS Eksternal :<p>
+  
+  ![image](https://user-images.githubusercontent.com/54062259/114357363-daeaf700-9b9b-11eb-83ed-52282f7eb08e.png) ![image](https://user-images.githubusercontent.com/54062259/114357389-e3dbc880-9b9b-11eb-9dd6-3f0aad34cd8c.png)
+
+![image](https://user-images.githubusercontent.com/54062259/114357476-f81fc580-9b9b-11eb-94fd-12af3c802379.png)
+
+
+<p>Mmebuat form dan Hasi di run :<p>
+  
+  ![image](https://user-images.githubusercontent.com/54062259/114357583-1d143880-9b9c-11eb-90a7-442aaca0fcea.png)   ![image](https://user-images.githubusercontent.com/54062259/114357609-27363700-9b9c-11eb-83cf-f854a9a78da1.png)
+
+![image](https://user-images.githubusercontent.com/54062259/114357626-2bfaeb00-9b9c-11eb-8f3a-a2327827c9e3.png)
+
+<p>Membuat Listbox dengan Multiple Select : <p>
+  
+  ![image](https://user-images.githubusercontent.com/54062259/114357686-43d26f00-9b9c-11eb-86e0-b1b9aa8e7335.png)
+
+![image](https://user-images.githubusercontent.com/54062259/114357737-5056c780-9b9c-11eb-82e7-c3cb77bc3a91.png)
+
+
+
 
 
 
