@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="form_tugas.css">
+	<title>Tugas Pratikum 3</title>
+	<style>
+	form p > label {
+		display: inline-block;
+		width: 100px;}
+	form input[type="text"], form textarea {
+		border: 1px solid #197a43;}
+	form input[type="submit"] {
+		border: 1px solid #197a43;
+		background-color: #197a43;
+		color: #ffffff;
+		font-weight: bold;
+		padding: 5px 15px;}
+</style>
+</head>
+<body>
+	<header>
+		<h1>HIMPUNAN MAHASISWA TEKNIK INFORMATIKA</h1>
+		<div class="menu">
+			<ul id="navigasi">
+				<li><a href="#">Beranda</a></li>
+				<li><a href="#">Alumni</a>
+					<ul>
+						<li><a href="index.php">Tracer Demisioner</a>
+						<li><a href="index.php">Lintas Generasi Himatif</a>
+					</ul>
+				</li>
+				<li><a href="#">Departemen</a>
+					<ul>
+						<li><a href="index.php">Pengembangan Organisasi</a>
+						<li><a href="index.php">Media Komunikasi dan Informasi</a>
+						<li><a href="index.php">Penelitian dan Pengembangan</a>
+						<li><a href="index.php">Minat dan Bakat</a>
+						<li><a href="index.php">Hubungan Internal dan Eksternal</a>
+					</ul>
+				</li>
+				<li><a href="#">Tentang Kami</a>
+					<ul>
+						<li><a href="index.php">Visi dan Misi</a>
+						<li><a href="index.php">Stuktur Organisasi</a>
+						<li><a href="index.php">Pengurus Himatif</a>
+					</ul>
+				</li>
+			</ul> </div>	
+
+	<!--Membuat Form-->
+	<br>
+	<form action="proses.php" method="post">
+		<fieldset>
+			<legend>Open Recruitment Himatif</legend>
+			<p>
+				<label for="nama">Nama Lengkap</label>
+				<input type="text" id="nama" name="nama" placeholder="Masukan Nama Anda">
+			</p>
+			<p>
+				<label for="nim">NIM</label>
+				<input type="number" id="nim" name="nim" placeholder="Masukan NIM Anda">
+			</p>
+			<p>
+				<label for="kelas">Kelas</label>
+				<input type="text" id="kelas" name="kelas" placeholder="Masukan Kelas  Anda">
+			</p>
+			<p>
+				<label>Jenis Kelamin</label>
+				<input id="jk_l" type="radio" name="kelamin" value="L" /><label for="jk_l">Laki-Laki</label>
+				<input id="jk_p" type="radio" name="kelamin" value="P" /><label for="jk_p">Perempuan</label>
+			</p>
+			<p>
+				<label for="alamat">Alamat</label>
+				<textarea id="alamat" name="alamat" cols="20" rows="3"></textarea>
+			</p>
+			<p>
+				<label for="agama">Agama</label>
+				<select name="agama">
+					<option value="islam">Pilih</option>
+					<option value="islam">Islam</option>
+					<option value="kristen">Kristen</option>
+					<option value="hindu">Hindu</option>
+					<option value="budha">Budha</option>
+				</select>	
+			</p>
+			<p>
+				<label for="visi">Visi</label>
+				<input type="text" id="visi" name="visi" placeholder="Masukan Visi Anda">
+			</p>
+			<p>
+				<label for="misi">Misi</label>
+				<textarea id="misi" name="misi" cols="20" rows="3"></textarea>
+			</p>
+
+				<P><label for="departemen">Departemen</label></P>
+			  <select name="departemen" id="departemen" size="6"  multiple>
+			    <optgroup label="Biro"></optgroup>
+			    <option value="adk">Biro Administrasi dan Kesekretariatan</option>
+			    <option value="keu">Biro Keuangan</option>
+			    <optgroup label="Departemen"></optgroup>
+			    <option value="po">Pengembangan Organisasi</option>
+			    <option value="medkom">Media Komunikasi dan Informasi</option>
+			    <option value="litbang">Penelitian dan Pengembangan</option>
+			    <option value="miba">Minat dan Bakat</option>
+			    <option value="hubin">Hubungan Internal dan Eksternal</option>
+ 			</select>
+			<p><input type="submit" value="Register"></p>
+		</fieldset>
+	</form>
+	</header>
+</body>
+</html>
